@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jupyter-book-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Jung Hoon Son <junghoonson@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter-book = "^0.15.1"
+ipykernel = "^6.25.1"
+pandas = "^2.0.3"
+polars = "^0.18.15"
+altair = "^5.0.1"
+plotly = "^5.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
