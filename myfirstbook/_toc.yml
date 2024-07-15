@@ -6,3 +6,4 @@ root: intro
 chapters:
 - file: altair-intro.ipynb
 - file: Welcome_To_Colab.ipynb
+- file: notebooks.ipynb
